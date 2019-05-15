@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+	
+<head>
+		
+	<meta charset="utf-8">
+	<title>Сокіл </title>
+	<link rel="icon" type="image/png" href="images/gymn2.png" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<style>
+		
+			#myBtn {
+				display: none;
+				position: fixed;
+				bottom: 20px;
+				right: 80px;
+				z-index: 99;
+				font-size: 18px;
+				border: none;
+				outline: none;
+				background-color: darkblue;
+				color: white;
+				cursor: pointer;
+				padding: 15px;
+				border-radius: 4px;
+			}
+			
+			#myBtn:hover {
+				background-color: #555;
+			}
+
+			.pain {
+				position: relative;
+				bottom: 50px;
+				right: -75px;
+				padding: 15px;
+				color: darkorange;
+				font-size: 30px;
+
+			}
+
+
+			.kill {
+				position: relative;
+				bottom: 50px;
+				right: -10px;
+				padding: 15px;
+				color: rgb(25, 81, 155);
+				font-size: 18px;
+
+			}
+
+			.k {
+				position: relative;
+				bottom: 50px;
+				right: -25px;
+				padding: 15px;
+				color: blue;
+				font-size: 25px;
+			}
+
+	</style>
+</head>
+  <body>
+		 <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+		
+		   <script>
+		   // When the user scrolls down 20px from the top of the document, show the button
+		   window.onscroll = function() {scrollFunction()};
+		
+		   function scrollFunction() {
+			 if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+				document.getElementById("myBtn").style.display = "block";
+			 } else {
+				document.getElementById("myBtn").style.display = "none";
+			 }
+		 }
+		
+		   // When the user clicks on the button, scroll to the top of the document
+		   function topFunction() {
+			 document.body.scrollTop = 0;
+			  document.documentElement.scrollTop = 0;
+		 }
+		  </script>
+
+	<header>
+		<div class="overlay"></div> <!--block for background shading absolute positioning-->
+		<div class="container">
+			<div class="row">
+				<nav class="navbar navbar-default">
+				  <div class="container-fluid">
+				    <!-- Brand and toggle get grouped for better mobile display -->
+				    <div class="navbar-header">
+				     
+				        <span class="sr-only">Toggle navigation</span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				      </button>
+				      <a class="navbar-brand" href="#">
+				      	<img src="images/gymn2.png">
+				      	<span>УжгородськА<br>гімназія</span>
+				      </a>
+				    </div>
+
+				    <!-- Collect the nav links, forms, and other content for toggling -->
+				   
+				  </div><!-- /.container-fluid -->
+				</nav>
+				<p class="pre-title">Нові фотографії</p>
+				<h1>
+					"Сокіл" (Джура)
+				</h1>
+			</div>
+		</div>
+	</header>
+	<div class="directions">
+		<div class="container">
+			<div class="row">
+
+				
+
+		
+
+
+				<div class="col-md-4 col-sm-4 col-xs-12">
+					<div class="item">
+						<img src="images/q1.jpg">
+					</div>
+					<a href="" target="_blank" class="item-title"></a>
+				</div>
+
+				<div class="col-md-4 col-sm-4 col-xs-12">
+					<div class="item">
+						<img src="images/q2.jpg">
+					</div>
+					<a href="" target="_blank" class="item-title"></a>
+				</div>
+
+				<div class="col-md-4 col-sm-4 col-xs-12">
+					<div class="item">
+							<img src="images/q3.jpg">
+					</div>
+					<a href="" target="_blank" class="item-title"></a>
+				</div>
+
+				<div class="col-md-4 col-sm-4 col-xs-12">
+						<div class="item">
+								<img src="images/q4.jpg">
+						</div>
+						<a href="" target="_blank" class="item-title"></a>
+					</div>
+
+					<div class="col-md-4 col-sm-4 col-xs-12">
+							<div class="item">
+									<img src="images/q5.jpg">
+							</div>
+							<a href="" target="_blank" class="item-title"></a>
+						</div>
+
+						
+					
+
+								
+			</div>
+		</div>
+		
+	</div>
+	<footer>
+		<div class="container ">
+			<div class="row contacts">
+				<div class="col-md-4 col-sm-4 col-xs-12">
+					<p class="tech">За питаннями:</p>
+					<a href="wildsoul1009@gmail.com" class="desc">wildsoul1009@gmail.com</a>
+				</div>
+
+				<div class="col-md-4 col-sm-4 col-xs-12">
+					<p class="tech">Проект створений Ужгородською класичною гімназією</p>
+					<p class="desc">Main creator:</p>
+					<p class="desc">Hanych </p>
+					<p class="note">*Всі фотографії належать Ужгородській гімназії</p>
+				</div>
+				
+				<div class="col-md-4 col-sm-4 col-xs-12">
+					<p class="tech">Мета:</p>
+					<p class="desc">
+					Створити своєрідну галерею гімназистів у заході/грі "Сокіл"</p>
+				</div>
+
+			</div>
+			<div class="row copyright">
+				<p class="copy">Copyright © 2018-2019. All rights reserved.</p>
+			</div>
+		</div>
+	</footer>
+
+	<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+
+</body>
+</html>
+
